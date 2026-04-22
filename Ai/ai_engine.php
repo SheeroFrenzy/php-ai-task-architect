@@ -1,7 +1,7 @@
 <?php
 /**
  * Project: AI Task Architect
- * Author: MichellSheyra (Michał Szczegłow)
+ * Author: Mykola Kopchenov
  */
 
 function processTaskWithAI($taskDescription, $language = 'en') {
