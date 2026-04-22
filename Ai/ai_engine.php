@@ -12,9 +12,9 @@ function processTaskWithAI($taskDescription, $language = 'en') {
         // --- DEMO MODE WITH RANDOM LOGIC ---
         usleep(600000); 
         
-        // Рандомная сложность, чтобы проект не выглядел статичным
+        
         $randomDiff = rand(3, 9);
-        $timeEst = $randomDiff * 2; // Типа оценка времени
+        $timeEst = $randomDiff * 2; 
 
         if ($language === 'pl') {
             return "🚀 [TRYB DEMO] Analiza dla: " . htmlspecialchars($taskDescription) . "\n\n" .
